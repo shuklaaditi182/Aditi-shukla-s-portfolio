@@ -1,0 +1,214 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('ai-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f0f0f0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+header .container {
+    width: 80%;
+    margin: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* About Section Styles */
+#about {
+    padding: 40px 0;
+    background-color: rgba(31, 31, 31, 0.9);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+
+#about h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+
+#about p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #e0e0e0;
+}
+
+/* Education Section Styles */
+#education {
+    background-color: rgba(44, 44, 44, 0.9);
+    padding: 40px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.education-item {
+    background: rgba(51, 51, 51, 0.9);
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.education-item h3 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.education-item p {
+    font-size: 1.1em;
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: rgba(31, 31, 31, 0.9);
+    padding: 40px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: rgba(51, 51, 51, 0.9);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 1.1em;
+}
+
+/* Projects Section Styles */
+#projects {
+    background-color: rgba(44, 44, 44, 0.9);
+    padding: 40px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.project {
+    background: rgba(51, 51, 51, 0.9);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.project h3 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.project p {
+    font-size: 1.1em;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 40px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#contact h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    background: rgba(51, 51, 51, 0.9);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#contact a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(30, 30, 30, 0.9);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer .container {
+    width: 80%;
+    margin: auto;
+}
+
+footer p {
+    font-size: 1.1em;
+}
